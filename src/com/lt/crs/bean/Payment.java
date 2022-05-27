@@ -1,5 +1,7 @@
 package com.lt.crs.bean;
 
+import java.util.List;
+
 public class Payment {
 
 	private String referenceId;
@@ -7,6 +9,7 @@ public class Payment {
 	private int amount;
 	private boolean status;
 	private String paymentType;
+	private List cash;
 	
 	public String getReferenceId() {
 		return referenceId;
