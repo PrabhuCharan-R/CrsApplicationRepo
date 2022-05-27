@@ -1,6 +1,6 @@
 package com.lt.crs.service;
 
-public class CatalogService {
+public class CatalogService implements CatalogServiceInterface{
 
 	public void addCourse(){
 		

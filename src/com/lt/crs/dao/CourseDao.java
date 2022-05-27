@@ -1,11 +1,10 @@
-package com.lt.crs.service;
+package com.lt.crs.dao;
 
 import java.util.List;
 
 import com.lt.crs.bean.Student;
 
-public class CourseService implements CourseServiceInterface{
-
+public class CourseDao implements CourseDaoInterface{
 	public String getCourseCode(){
 		return "";
 	}
@@ -14,6 +13,4 @@ public class CourseService implements CourseServiceInterface{
 		return null;
 		
 	}
-
-	
 }

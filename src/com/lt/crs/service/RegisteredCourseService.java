@@ -1,6 +1,6 @@
 package com.lt.crs.service;
 
-public class RegisteredCourseService {
+public class RegisteredCourseService implements RegisteredCourseServiceInterface{
 
 	public void viewGrade(){
 		

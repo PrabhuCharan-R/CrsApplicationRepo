@@ -1,8 +1,7 @@
-package com.lt.crs.service;
+package com.lt.crs.dao;
 
-public class SemesterRegistrationService implements SemesterRegistrationInterface{
-
-	public void addCourse(){
+public class SemesterRegistrationDao implements SemesterRegistrationDaoInterface{
+public void addCourse(){
 		
 	}
 	

@@ -1,7 +1,7 @@
 package com.lt.crs.service;
 
 
-public class StudentService {
+public class StudentService implements StudentServiceInterface{
 
 	public void registeredCourses(){
 		

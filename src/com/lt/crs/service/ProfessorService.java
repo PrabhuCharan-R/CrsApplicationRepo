@@ -1,6 +1,6 @@
 package com.lt.crs.service;
 
-public class ProfessorService {
+public class ProfessorService implements ProfessorServiceInterface{
 	
 	public void addGrades(){
 		
